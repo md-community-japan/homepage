@@ -6,6 +6,10 @@ import mdcLogo from './assets/image14.svg';
 import feature1 from './assets/feature1.svg';
 import feature2 from './assets/feature2.svg';
 import feature3 from './assets/feature3.svg';
+import step1 from './assets/step1.png';
+import step2 from './assets/step2.png';
+import step3 from './assets/step3.png';
+import step4 from './assets/step4.png';
 import './App.css';
 
 function App() {
@@ -15,25 +19,25 @@ function App() {
         {
             title: '招待を承認する',
             description: '筋ジストロフィーコミュニティへの招待が開きます。「承認」ボタンをクリックして参加しましょう。',
-            image: '/src/assets/step1.png',
+            image: step1,
         },
         {
             title: 'ルールを確認する',
             description:
                 'コミュニティのルールを確認し、自己紹介やリアクションについて理解しましょう。ルールはこちらから確認できます。',
-            image: '/src/assets/step2.png',
+            image: step2,
         },
         {
             title: 'メッセージを送る',
             description:
                 '自己紹介チャンネルであなたについて紹介してみましょう。コミュニティメンバーとの交流が始まります。',
-            image: '/src/assets/step4.png',
+            image: step3,
         },
         {
             title: 'チャンネルを探索する',
             description:
                 '様々なチャンネルが用意されています。雑談、SNSアカウント、宣伝など、目的に応じてチャンネルを選択できます。',
-            image: '/src/assets/step3.png',
+            image: step4,
         },
     ];
 
